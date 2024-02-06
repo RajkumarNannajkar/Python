@@ -1,4 +1,4 @@
-class Father:
+class Father: # Hierarchical 
     def __init__(self, name):
         self.name = name
 
