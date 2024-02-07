@@ -1,0 +1,16 @@
+def person(func):
+    def wrapper():
+        print('Good Morning')
+        func()
+        print('Thank You')
+    return wrapper
+
+
+@person
+def show ():
+    print('I am Raj')
+
+
+show()
+
+
